@@ -1,0 +1,17 @@
+@nsobid-EA058A067CBD6943A6CF65B4588B6098
+
+# Pokemon Brilliant Diamond 1.1.0
+
+
+
+// NSO has a 0x100 long header, which is not part of the binary offset
+
+@flag offset_shift 0x100 // <- This flag auto adds 0x100 to all offsets in the text
+
+
+
+// Disable EXP Share
+
+@enabled
+
+0244E510 00008052C0035FD6
